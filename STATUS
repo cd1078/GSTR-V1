@@ -1,4 +1,5 @@
-git status
-git add requirements.txt
-git commit -m "Add requirements.txt file"
-git push origin main
+<<<<<<< HEAD
+Your local changes
+=======
+Changes from the remote repository
+>>>>>>> remote/main
