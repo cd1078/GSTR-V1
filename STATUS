@@ -1,4 +1,1 @@
-git add requirements.txt
-git commit -m "Added requirements.txt file"
-git push origin main
-
+git status
