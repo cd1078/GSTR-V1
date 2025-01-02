@@ -12,7 +12,7 @@ def gst_status():
     return_type = request.args.get('type', 'monthly')  # Default to monthly
 
     # Construct the GST API URL
-    gst_api_url = f"https://<domain-name>/commonapi/v1.0/returns?gstin={gstin}&fy={year}&type={return_type}"
+    gst_api_url = f"https://developer.gst.gov.in/apiportal/commonapi/v1.0/returns?gstin={gstin}&fy={year}&type={return_type}"
 
     # Headers for the API request
     headers = {
